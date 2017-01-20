@@ -1,0 +1,17 @@
+body {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 1500px;
+}
+
+a:hover{
+  color:#FFD8FD;
+}
+
+a:link{
+  color: #6BC5FF;
+}
+
+a:visited{
+  color: #088AB7;
+}
