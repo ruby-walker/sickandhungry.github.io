@@ -110,3 +110,10 @@ p{
 	color: white;
 	font-size: 21px;
 }
+
+#drugs {
+  min-width: 320px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
