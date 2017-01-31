@@ -1,2 +1,5 @@
 # sickandhungry.github.io
-A GitHub Pages site with fun facts about everybody's favorite little fluffer, **Jigglypuff**!
+A GitHub Pages site hosting several of my other repositories, including:
+  * Fun facts about Jigglypuff
+  * Awesome Skills
+  * Prodigii
