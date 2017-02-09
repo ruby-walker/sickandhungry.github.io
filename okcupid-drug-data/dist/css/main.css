@@ -22,6 +22,10 @@ td{
 	margin-bottom: 10px;
 }
 
+.col{
+	backgound-color: white;
+}
+
 .textbox3{
 	background-color: #C000BA;
 	border-radius: 	10px;
@@ -55,7 +59,7 @@ td{
 
 .copyright{
 	margin-top: 20px;
-	margin-bottom: -25px;
+	margin-bottom: -5px;
 }
 
 h1{
@@ -94,9 +98,10 @@ a:hover{
 	color: #900C3F;
 }
 .jumbotron{
-	margin-top: 50px;
+	margin-top: 30px;
 	background-color: #0E55C2;
 	border: 2px solid white;
+	padding: 20px;
 }
 
 .customh1{
