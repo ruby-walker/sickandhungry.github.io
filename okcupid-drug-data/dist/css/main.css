@@ -90,6 +90,9 @@ a{
 	color: #D2B4DE;
 }
 
+a:visited{
+	color: B70882;
+
 a:hover{
 	color: #900C3F;
 }
