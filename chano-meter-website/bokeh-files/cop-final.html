@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>color_scatter.py example</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="2569071e-c3b0-493b-8850-1f5d7fa078ec"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"a79e5035-273a-4883-8917-815bdab9306c":{"roots":{"references":[{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"e5b4fea6-6ba7-4596-a93c-2672accda2f8","type":"CrosshairTool"},{"id":"ea5ba64e-d218-4d85-89e7-a0ea2122093e","type":"SaveTool"}]},"id":"dd4f44a6-e194-471a-b84b-c7e9d7ed816a","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"radius":{"field":"radius","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"25ef0fd8-26df-47f0-82e0-9564819dbd34","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"fill_color"},"line_color":{"value":null},"radius":{"field":"radius","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"fb3e530f-7ffa-40d6-8397-e45b2733dc5d","type":"Circle"},{"attributes":{"formatter":{"id":"943eaf94-0153-448c-b63c-c6f1ee9af7dd","type":"CategoricalTickFormatter"},"plot":{"id":"d53812f3-908b-4370-b0ad-dfaeb389487e","subtype":"Figure","type":"Plot"},"ticker":{"id":"1c99ead6-800e-4d52-8888-a330c7d57810","type":"CategoricalTicker"}},"id":"91979e54-d748-47b4-8238-b77ee4cb37e1","type":"CategoricalAxis"},{"attributes":{"below":[{"id":"91979e54-d748-47b4-8238-b77ee4cb37e1","type":"CategoricalAxis"}],"left":[{"id":"5e4ba756-1bf1-4bb1-839b-7e1c14d59ca0","type":"CategoricalAxis"}],"plot_width":1000,"renderers":[{"id":"91979e54-d748-47b4-8238-b77ee4cb37e1","type":"CategoricalAxis"},{"id":"99f16a74-75a1-494e-a4c4-bffda735ee65","type":"Grid"},{"id":"5e4ba756-1bf1-4bb1-839b-7e1c14d59ca0","type":"CategoricalAxis"},{"id":"2ee92d1d-5624-4571-b645-0591456b48c1","type":"Grid"},{"id":"865cda84-605b-4c0e-9f27-76546b7bc1b6","type":"GlyphRenderer"}],"title":{"id":"d1a1eee6-ceed-4eb3-a63c-8280503e9e89","type":"Title"},"tool_events":{"id":"acca0dc5-87bb-4c43-99cf-d282c76adf74","type":"ToolEvents"},"toolbar":{"id":"dd4f44a6-e194-471a-b84b-c7e9d7ed816a","type":"Toolbar"},"x_range":{"id":"a037694c-945d-4a28-a132-aed2a97a9aa8","type":"FactorRange"},"y_range":{"id":"4ce87f4a-0cf4-43d3-b5d5-da264f2e1364","type":"FactorRange"}},"id":"d53812f3-908b-4370-b0ad-dfaeb389487e","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1c99ead6-800e-4d52-8888-a330c7d57810","type":"CategoricalTicker"},{"attributes":{"plot":null,"text":"Occurences of the word 'cops' in Chance the Rapper Songs"},"id":"d1a1eee6-ceed-4eb3-a63c-8280503e9e89","type":"Title"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"d53812f3-908b-4370-b0ad-dfaeb389487e","subtype":"Figure","type":"Plot"},"ticker":{"id":"1c99ead6-800e-4d52-8888-a330c7d57810","type":"CategoricalTicker"}},"id":"99f16a74-75a1-494e-a4c4-bffda735ee65","type":"Grid"},{"attributes":{"formatter":{"id":"a9cd677e-4732-4812-bcb4-dca4416f688f","type":"CategoricalTickFormatter"},"plot":{"id":"d53812f3-908b-4370-b0ad-dfaeb389487e","subtype":"Figure","type":"Plot"},"ticker":{"id":"66495d14-e862-4e09-8651-2785a72b8b78","type":"CategoricalTicker"}},"id":"5e4ba756-1bf1-4bb1-839b-7e1c14d59ca0","type":"CategoricalAxis"},{"attributes":{},"id":"acca0dc5-87bb-4c43-99cf-d282c76adf74","type":"ToolEvents"},{"attributes":{"callback":null,"factors":["Track 1","Track 2","Track 3","Track 4","Track 5","Track 6","Track 7","Track 8","Track 9","Track 10","Track 11","Track 12","Track 13","Track 14"]},"id":"a037694c-945d-4a28-a132-aed2a97a9aa8","type":"FactorRange"},{"attributes":{},"id":"66495d14-e862-4e09-8651-2785a72b8b78","type":"CategoricalTicker"},{"attributes":{"data_source":{"id":"1979a8af-3338-490f-8efa-a9f40c90d810","type":"ColumnDataSource"},"glyph":{"id":"fb3e530f-7ffa-40d6-8397-e45b2733dc5d","type":"Circle"},"hover_glyph":null,"nonselection_glyph":{"id":"25ef0fd8-26df-47f0-82e0-9564819dbd34","type":"Circle"},"selection_glyph":null},"id":"865cda84-605b-4c0e-9f27-76546b7bc1b6","type":"GlyphRenderer"},{"attributes":{"dimension":1,"plot":{"id":"d53812f3-908b-4370-b0ad-dfaeb389487e","subtype":"Figure","type":"Plot"},"ticker":{"id":"66495d14-e862-4e09-8651-2785a72b8b78","type":"CategoricalTicker"}},"id":"2ee92d1d-5624-4571-b645-0591456b48c1","type":"Grid"},{"attributes":{},"id":"a9cd677e-4732-4812-bcb4-dca4416f688f","type":"CategoricalTickFormatter"},{"attributes":{"plot":{"id":"d53812f3-908b-4370-b0ad-dfaeb389487e","subtype":"Figure","type":"Plot"}},"id":"ea5ba64e-d218-4d85-89e7-a0ea2122093e","type":"SaveTool"},{"attributes":{"plot":{"id":"d53812f3-908b-4370-b0ad-dfaeb389487e","subtype":"Figure","type":"Plot"}},"id":"e5b4fea6-6ba7-4596-a93c-2672accda2f8","type":"CrosshairTool"},{"attributes":{"callback":null,"column_names":["radius","x","y","fill_color"],"data":{"fill_color":["#033B6B","#0C4777","#165384","#206091","#296C9D","#3379AA","#3D85B7","#4792C4","#599ECA","#6BAAD1","#7DB6D8","#8FC2DF","#A1CEE6","#B4DAED","#BF467B","#B7427B","#B03E7B","#A93A7C","#A2367C","#9A327D","#932F7D","#8C2B7D","#85277E","#7D237E","#761F7F","#6F1B7F"],"radius":[0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,1.0,0,0,0,1,0,0,0,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,1,2,3,4,5,6,7,8,9,10,11,12,13,1,2,3,4,5,6,7,8,9,10,11,12,13,14],"y":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3]}},"id":"1979a8af-3338-490f-8efa-a9f40c90d810","type":"ColumnDataSource"},{"attributes":{},"id":"943eaf94-0153-448c-b63c-c6f1ee9af7dd","type":"CategoricalTickFormatter"},{"attributes":{"callback":null,"factors":["10 Day","Acid Rap","Coloring Book"]},"id":"4ce87f4a-0cf4-43d3-b5d5-da264f2e1364","type":"FactorRange"}],"root_ids":["d53812f3-908b-4370-b0ad-dfaeb389487e"]},"title":"Bokeh Application","version":"0.12.4"}};
+              var render_items = [{"docid":"a79e5035-273a-4883-8917-815bdab9306c","elementid":"2569071e-c3b0-493b-8850-1f5d7fa078ec","modelid":"d53812f3-908b-4370-b0ad-dfaeb389487e"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>

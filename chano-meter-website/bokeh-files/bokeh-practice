@@ -1,0 +1,19 @@
+import numpy as np
+
+from bokeh.plotting import figure, show, output_file
+
+
+x = [1, 2, 3]
+y = [3, 2, 1]
+radii = [.05, .25, .05]
+colors = ['#084594', '#2171b5', '#4292c6']
+
+TOOLS="hover,crosshair,pan,wheel_zoom,zoom_in,zoom_out,undo,redo,reset,tap,save,box_select"
+
+p = figure(tools=TOOLS)
+
+p.scatter(x, y, radius=radii, fill_color=colors, line_color=None)
+
+output_file("color_scatter.html", title="color_scatter.py example")
+
+show(p)

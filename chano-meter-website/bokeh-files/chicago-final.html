@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>color_scatter.py example</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.4.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+<!---BEGIN CHICAGO--->
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="bfe64f87-0471-4600-adaa-52551daf9a3d"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              var docs_json = {"a3b08f86-d015-43a8-b57d-8be15c25168f":{"roots":{"references":[{"attributes":{},"id":"e78b87c5-9962-43cd-8d46-7d0fa471b0a9","type":"CategoricalTickFormatter"},{"attributes":{"plot":{"id":"18f103f4-d168-4f03-940d-fc7fbf743d5f","subtype":"Figure","type":"Plot"}},"id":"f35d15d8-e150-4e4c-b7c7-33d567c31061","type":"CrosshairTool"},{"attributes":{"plot":{"id":"18f103f4-d168-4f03-940d-fc7fbf743d5f","subtype":"Figure","type":"Plot"}},"id":"877f71db-8a6a-4e10-b636-042f0f469488","type":"SaveTool"},{"attributes":{"callback":null,"factors":["10 Day","Acid Rap","Coloring Book"]},"id":"bb96799f-ee71-4630-af1b-59bbc28aa10d","type":"FactorRange"},{"attributes":{"fill_alpha":{"value":0.9},"fill_color":{"field":"fill_color"},"line_color":{"value":null},"radius":{"field":"radius","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1fa6bce9-eac5-4e01-ab5d-135e5768d7c4","type":"Circle"},{"attributes":{"active_drag":"auto","active_scroll":"auto","active_tap":"auto","tools":[{"id":"f35d15d8-e150-4e4c-b7c7-33d567c31061","type":"CrosshairTool"},{"id":"877f71db-8a6a-4e10-b636-042f0f469488","type":"SaveTool"}]},"id":"88e9cd00-1130-407c-9258-01320c6ff522","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"radius":{"field":"radius","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"29d41094-6386-4413-8e2b-791c69286c0f","type":"Circle"},{"attributes":{},"id":"60c960bb-1c0e-44e4-ab47-1e65d2bb12d7","type":"CategoricalTickFormatter"},{"attributes":{"formatter":{"id":"60c960bb-1c0e-44e4-ab47-1e65d2bb12d7","type":"CategoricalTickFormatter"},"plot":{"id":"18f103f4-d168-4f03-940d-fc7fbf743d5f","subtype":"Figure","type":"Plot"},"ticker":{"id":"dee96350-ba6d-46a5-86d8-2b9fc5094bd2","type":"CategoricalTicker"}},"id":"b7672a0d-02de-46c3-a2d8-ff8f53659da4","type":"CategoricalAxis"},{"attributes":{},"id":"dee96350-ba6d-46a5-86d8-2b9fc5094bd2","type":"CategoricalTicker"},{"attributes":{"plot":null,"text":"Occurences of the words 'Chicago', '79', and '79th' in Chance the Rapper Songs"},"id":"d8296b78-a291-4fb0-8055-e2d9c7aeb864","type":"Title"},{"attributes":{"callback":null,"column_names":["radius","x","y","fill_color"],"data":{"fill_color":["#033B6B","#0C4777","#165384","#206091","#296C9D","#3379AA","#3D85B7","#4792C4","#599ECA","#6BAAD1","#7DB6D8","#8FC2DF","#A1CEE6","#B4DAED","#BF467B","#B7427B","#B03E7B","#A93A7C","#A2367C","#9A327D","#932F7D","#8C2B7D","#85277E","#7D237E","#761F7F","#6F1B7F","#681880","#FA416C","#F8476B","#F74D6A","#F65369","#F55A68","#F46067","#F36666","#F26D66","#F47766","#F68267","#F88D67","#FA9768","#FCA268","#FFAD69"],"radius":[0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0,0,0,0,0,0.25,0,0,0,0.25,0,0,0.0,0,0,5.5,0,0,0,0,0,0,0.25,2,0,0.25,0],"x":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,1,2,3,4,5,6,7,8,9,10,11,12,13,1,2,3,4,5,6,7,8,9,10,11,12,13,14],"y":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3]}},"id":"98150723-68aa-4d79-bb76-f0e646983de3","type":"ColumnDataSource"},{"attributes":{"below":[{"id":"b7672a0d-02de-46c3-a2d8-ff8f53659da4","type":"CategoricalAxis"}],"left":[{"id":"c422e6f1-e2e2-48be-aeee-aad2764be39a","type":"CategoricalAxis"}],"plot_width":1000,"renderers":[{"id":"b7672a0d-02de-46c3-a2d8-ff8f53659da4","type":"CategoricalAxis"},{"id":"65baa2d6-4e94-4bd1-bf93-bd8d2d8ea75c","type":"Grid"},{"id":"c422e6f1-e2e2-48be-aeee-aad2764be39a","type":"CategoricalAxis"},{"id":"560e9361-d87d-48a7-912a-67df753a994c","type":"Grid"},{"id":"bb803142-2d1a-481e-8fa0-453109d34a39","type":"GlyphRenderer"}],"title":{"id":"d8296b78-a291-4fb0-8055-e2d9c7aeb864","type":"Title"},"tool_events":{"id":"03f087b7-dad3-4193-9251-e1b155e803d4","type":"ToolEvents"},"toolbar":{"id":"88e9cd00-1130-407c-9258-01320c6ff522","type":"Toolbar"},"x_range":{"id":"61cef217-f23b-4881-ac1a-13b29fdea756","type":"FactorRange"},"y_range":{"id":"bb96799f-ee71-4630-af1b-59bbc28aa10d","type":"FactorRange"}},"id":"18f103f4-d168-4f03-940d-fc7fbf743d5f","subtype":"Figure","type":"Plot"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"18f103f4-d168-4f03-940d-fc7fbf743d5f","subtype":"Figure","type":"Plot"},"ticker":{"id":"dee96350-ba6d-46a5-86d8-2b9fc5094bd2","type":"CategoricalTicker"}},"id":"65baa2d6-4e94-4bd1-bf93-bd8d2d8ea75c","type":"Grid"},{"attributes":{"callback":null,"factors":["Track 1","Track 2","Track 3","Track 4","Track 5","Track 6","Track 7","Track 8","Track 9","Track 10","Track 11","Track 12","Track 13","Track 14"]},"id":"61cef217-f23b-4881-ac1a-13b29fdea756","type":"FactorRange"},{"attributes":{"formatter":{"id":"e78b87c5-9962-43cd-8d46-7d0fa471b0a9","type":"CategoricalTickFormatter"},"plot":{"id":"18f103f4-d168-4f03-940d-fc7fbf743d5f","subtype":"Figure","type":"Plot"},"ticker":{"id":"17d72ae2-8799-485e-911c-2dac98539a84","type":"CategoricalTicker"}},"id":"c422e6f1-e2e2-48be-aeee-aad2764be39a","type":"CategoricalAxis"},{"attributes":{},"id":"03f087b7-dad3-4193-9251-e1b155e803d4","type":"ToolEvents"},{"attributes":{},"id":"17d72ae2-8799-485e-911c-2dac98539a84","type":"CategoricalTicker"},{"attributes":{"data_source":{"id":"98150723-68aa-4d79-bb76-f0e646983de3","type":"ColumnDataSource"},"glyph":{"id":"1fa6bce9-eac5-4e01-ab5d-135e5768d7c4","type":"Circle"},"hover_glyph":null,"nonselection_glyph":{"id":"29d41094-6386-4413-8e2b-791c69286c0f","type":"Circle"},"selection_glyph":null},"id":"bb803142-2d1a-481e-8fa0-453109d34a39","type":"GlyphRenderer"},{"attributes":{"dimension":1,"plot":{"id":"18f103f4-d168-4f03-940d-fc7fbf743d5f","subtype":"Figure","type":"Plot"},"ticker":{"id":"17d72ae2-8799-485e-911c-2dac98539a84","type":"CategoricalTicker"}},"id":"560e9361-d87d-48a7-912a-67df753a994c","type":"Grid"}],"root_ids":["18f103f4-d168-4f03-940d-fc7fbf743d5f"]},"title":"Bokeh Application","version":"0.12.4"}};
+              var render_items = [{"docid":"a3b08f86-d015-43a8-b57d-8be15c25168f","elementid":"bfe64f87-0471-4600-adaa-52551daf9a3d","modelid":"18f103f4-d168-4f03-940d-fc7fbf743d5f"}];
+              
+              Bokeh.embed.embed_items(docs_json, render_items);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+<!---END CHICAGO--->
+    </body>
+</html>
