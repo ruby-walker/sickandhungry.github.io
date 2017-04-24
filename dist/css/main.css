@@ -116,6 +116,14 @@ h4{
 	font-size: 25px;
 }
 
+h5{
+	color: white;
+	margin-top: -10px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 20px;
+}
+
 p{
 	color: white;
 }
