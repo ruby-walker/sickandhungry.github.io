@@ -18,6 +18,10 @@ h1{
 	font-weight: bold;
 }
 
+.job{
+	font-weight: bold;
+	font-style: italic;
+}
 
 th{
 	background-color: red;
